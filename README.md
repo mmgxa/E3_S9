@@ -12,7 +12,7 @@ In this session, we will deploy a GPT model to AWS FarGate.
 
 ## Notes
 
-The model has been pushed to S3 and will be downloaded from there. For the container to access the model, ECR has been granted the `` policy. 
+The model has been pushed to S3 and will be downloaded from there. For the container to access the model, ECR has been granted the `AmazonS3ReadOnlyAccess` policy. 
 
 The docker image has been pushed to ECR.
 
